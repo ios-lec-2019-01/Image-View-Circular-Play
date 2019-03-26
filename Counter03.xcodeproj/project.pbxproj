@@ -12,6 +12,7 @@
 		0520C86622432B8D002A1AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0520C86422432B8D002A1AB0 /* Main.storyboard */; };
 		0520C86822432B8F002A1AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0520C86722432B8F002A1AB0 /* Assets.xcassets */; };
 		0520C86B22432B8F002A1AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0520C86922432B8F002A1AB0 /* LaunchScreen.storyboard */; };
+		05C92BA82249C14B007265CB /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C92BA72249C14A007265CB /* frame1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0520C86722432B8F002A1AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0520C86A22432B8F002A1AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0520C86C22432B8F002A1AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C92BA72249C14A007265CB /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		0520C85F22432B8D002A1AB0 /* Counter03 */ = {
 			isa = PBXGroup;
 			children = (
+				05C92BA72249C14A007265CB /* frame1.png */,
 				0520C86022432B8D002A1AB0 /* AppDelegate.swift */,
 				0520C86222432B8D002A1AB0 /* ViewController.swift */,
 				0520C86422432B8D002A1AB0 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0520C86B22432B8F002A1AB0 /* LaunchScreen.storyboard in Resources */,
+				05C92BA82249C14B007265CB /* frame1.png in Resources */,
 				0520C86822432B8F002A1AB0 /* Assets.xcassets in Resources */,
 				0520C86622432B8D002A1AB0 /* Main.storyboard in Resources */,
 			);

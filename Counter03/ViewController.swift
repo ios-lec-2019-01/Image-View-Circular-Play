@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var countLabel: UILabel!
+    @IBOutlet weak var alienImageView: UIImageView!
     var count = 0
     var direction = true
     
@@ -17,11 +18,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         countLabel.text = "0"
+        alienImageView.image = UIImage(named: "Image0")
     }
 
     @IBAction func buttonPressed(_ sender: Any) {
         
-        if count == 9 {
+        if count == 4 {
             direction = false
         } else if count == 0 {
             direction = true
@@ -36,6 +38,7 @@ class ViewController: UIViewController {
         }
         
         countLabel.text = String(count)
+        alienImageView.image = UIImage(named: "Image\(count)")
     }
     
 }
